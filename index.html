@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Master Order App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <p class="logo">Coffee Master</p>
+        <a href="#order">Order</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <p class="eyebrow">Premium Coffee Experience</p>
+        <h1>สั่งกาแฟแก้วโปรดของคุณ</h1>
+        <p>
+          เลือกเมนูโปรด ดูรายการ order และยอดรวมได้ในหน้าเดียว
+        </p>
+      </section>
+
+      <section class="showcase-section">
+        <div class="section-header">
+          <p class="eyebrow">Our Coffee</p>
+          <h2>หน้าตากาแฟของเรา</h2>
+          <p>ดูหน้าตาและรสชาติของกาแฟแต่ละแก้ว ก่อนตัดสินใจสั่งจากเมนูด้านล่าง</p>
+        </div>
+
+        <div class="showcase-grid">
+          <figure class="coffee-figure">
+            <div class="coffee-glass americano" role="img" aria-label="แก้ว Americano สีน้ำตาลเข้ม มีฟองครีมาสีทองบาง ๆ ด้านบน"></div>
+
+            <figcaption>
+              <h3>Americano</h3>
+              <p class="coffee-look">น้ำกาแฟสีน้ำตาลเข้มใส มีฟองครีมาสีทองบาง ๆ ลอยอยู่ด้านบน</p>
+              <p class="coffee-description">เอสเปรสโซผสมน้ำร้อน ไม่ใส่นม รสเข้ม หอม ชัด ดื่มแล้วสดชื่น เหมาะกับคนที่ชอบรสกาแฟแท้ ๆ</p>
+            </figcaption>
+          </figure>
+
+          <figure class="coffee-figure">
+            <div class="coffee-glass latte" role="img" aria-label="แก้ว Latte ที่มีสามชั้น ล่างสุดเป็นกาแฟเข้ม ตรงกลางเป็นนมสีน้ำตาลอ่อน บนสุดเป็นฟองนมสีขาว"></div>
+
+            <figcaption>
+              <h3>Latte</h3>
+              <p class="coffee-look">แยกเป็นสามชั้น เอสเปรสโซเข้มอยู่ล่างสุด นมสีน้ำตาลอ่อนอยู่ตรงกลาง และฟองนมสีขาวนวลอยู่บนสุด</p>
+              <p class="coffee-description">เอสเปรสโซกับนมสตรีมแบบจัดเต็ม รสนุ่ม มันเบา ๆ ดื่มง่าย เหมาะกับคนที่เพิ่งเริ่มดื่มกาแฟ</p>
+            </figcaption>
+          </figure>
+
+          <figure class="coffee-figure">
+            <div class="coffee-glass mocha" role="img" aria-label="แก้ว Mocha สีน้ำตาลเข้ม มีวิปครีมสีขาวด้านบน"></div>
+
+            <figcaption>
+              <h3>Mocha</h3>
+              <p class="coffee-look">ชั้นกาแฟผสมช็อกโกแลตสีน้ำตาลเข้ม มีวิปครีมสีขาวปิดอยู่ด้านบน</p>
+              <p class="coffee-description">เอสเปรสโซ ช็อกโกแลต และนมสตรีม รสหวานมันละมุน เหมือนช็อกโกแลตร้อนที่มีกาแฟเป็นพระเอก</p>
+            </figcaption>
+          </figure>
+
+          <figure class="coffee-figure">
+            <div class="coffee-glass cold-brew" role="img" aria-label="แก้ว Cold Brew สีน้ำตาลเข้มและมีก้อนน้ำแข็งลอยอยู่"></div>
+
+            <figcaption>
+              <h3>Cold Brew</h3>
+              <p class="coffee-look">สีน้ำตาลเข้มใส ไม่มีฟอง เสิร์ฟพร้อมก้อนน้ำแข็งก้อนใหญ่</p>
+              <p class="coffee-description">กาแฟสกัดเย็นนานหลายชั่วโมง รสสะอาด ขมน้อย นุ่ม ชื่นใจ เหมาะกับวันที่อากาศร้อน</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="menu-section">
+        <div class="section-header">
+          <p class="eyebrow">Menu</p>
+          <h2>เลือกเมนู</h2>
+          <p>กาแฟ เบเกอรี่ และเครื่องดื่มไม่มีกาแฟ คัดมาให้ทุกช่วงเวลาของวัน</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card-header">
+              <div>
+                <p class="menu-category">Coffee</p>
+                <h3>Americano</h3>
+              </div>
+
+              <p class="menu-price">฿80.00</p>
+            </div>
+
+            <p class="menu-description">กาแฟดำเข้ม หอม ชัด เหมาะสำหรับเริ่มวันใหม่</p>
+
+            <div class="quantity-control">
+              <button>-</button>
+              <span>2</span>
+              <button>+</button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-header">
+              <div>
+                <p class="menu-category">Coffee</p>
+                <h3>Latte</h3>
+              </div>
+
+              <p class="menu-price">฿90.00</p>
+            </div>
+
+            <p class="menu-description">กาแฟนมนุ่ม ดื่มง่าย เหมาะกับทุกช่วงเวลา</p>
+
+            <div class="quantity-control">
+              <button>-</button>
+              <span>0</span>
+              <button>+</button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-header">
+              <div>
+                <p class="menu-category">Coffee</p>
+                <h3>Mocha</h3>
+              </div>
+
+              <p class="menu-price">฿95.00</p>
+            </div>
+
+            <p class="menu-description">กาแฟผสมช็อกโกแลต เข้ม หวาน ละมุน</p>
+
+            <div class="quantity-control">
+              <button>-</button>
+              <span>0</span>
+              <button>+</button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-header">
+              <div>
+                <p class="menu-category">Coffee</p>
+                <h3>Cold Brew</h3>
+              </div>
+
+              <p class="menu-price">฿100.00</p>
+            </div>
+
+            <p class="menu-description">กาแฟสกัดเย็น รสสะอาด สดชื่น</p>
+
+            <div class="quantity-control">
+              <button>-</button>
+              <span>0</span>
+              <button>+</button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-header">
+              <div>
+                <p class="menu-category">Bakery</p>
+                <h3>Croissant</h3>
+              </div>
+
+              <p class="menu-price">฿75.00</p>
+            </div>
+
+            <p class="menu-description">ครัวซองต์เนยสด อบหอม กินคู่กับกาแฟได้ดี</p>
+
+            <div class="quantity-control">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-header">
+              <div>
+                <p class="menu-category">Non-Coffee</p>
+                <h3>Matcha Latte</h3>
+              </div>
+
+              <p class="menu-price">฿95.00</p>
+            </div>
+
+            <p class="menu-description">มัทฉะเข้มข้นผสมนมสด สำหรับคนไม่ดื่มกาแฟ</p>
+
+            <div class="quantity-control">
+              <button>-</button>
+              <span>0</span>
+              <button>+</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="order" class="order-section">
+        <div class="cart-card">
+          <h2>Your Order</h2>
+
+          <div class="cart-items">
+            <article class="cart-item">
+              <div>
+                <h3>Americano</h3>
+                <p>2 × ฿80.00</p>
+              </div>
+
+              <strong>฿160.00</strong>
+            </article>
+
+            <article class="cart-item">
+              <div>
+                <h3>Croissant</h3>
+                <p>1 × ฿75.00</p>
+              </div>
+
+              <strong>฿75.00</strong>
+            </article>
+          </div>
+        </div>
+
+        <div class="summary-card">
+          <h2>Order Summary</h2>
+
+          <label for="customerName">Customer Name</label>
+          <input id="customerName" type="text" placeholder="เช่น Man" />
+
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>฿235.00</span>
+          </div>
+
+          <div class="summary-row">
+            <span>Tax 7%</span>
+            <span>฿16.45</span>
+          </div>
+
+          <div class="summary-row final-total">
+            <span>Total</span>
+            <span>฿251.45</span>
+          </div>
+
+          <button class="order-button">Place Order</button>
+
+          <p class="order-message success">
+            สั่งซื้อสำเร็จ ขอบคุณที่ใช้บริการ Coffee Master
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Coffee Master. Built with HTML and CSS.</p>
+    </footer>
+  </body>
+</html>
