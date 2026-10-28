@@ -21,3 +21,11 @@ diff coffee-master-ui/style.css coffee-master-html-css-workshop/style.css
 ```
 
 ข้อมูลเมนู จำนวน และยอดรวมเป็นข้อมูลตัวอย่างที่เขียนไว้ใน HTML ปุ่ม `+` / `-` และ Place Order จึงยังไม่ทำงาน
+
+## Workshop JavaScript
+
+Workshop ถัดไปจะต่อยอดหน้านี้ด้วย Vanilla JavaScript ให้ปุ่ม `+` / `-` และ Place Order ทำงานจริง โค้ดเริ่มต้น (`start_js/`) และเฉลย (`finish_js/`) อยู่ที่ branch `javascript` ของ repo นี้
+
+```sh
+git clone -b javascript https://github.com/VaridenTech/coffee-master-html-css-workshop.git coffee-master-javascript
+```
