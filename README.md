@@ -43,7 +43,7 @@ git checkout javascript
 2. คลิกขวาที่ `index.html` แล้วเลือก **Open with Live Server** (หรือกดปุ่ม Go Live ที่มุมขวาล่าง)
 3. เริ่มเขียนโค้ดใน `src/main.js`
 
-> ต้องเปิดโฟลเดอร์ `start_js/` เป็น workspace เพราะ `index.html` อ้างไฟล์ด้วย path ที่ขึ้นต้นด้วย `/` (เช่น `/src/style.css`) ถ้าเปิดโฟลเดอร์ที่ใหญ่กว่านี้ หน้าเว็บจะไม่มี CSS
+> `index.html` อ้างไฟล์ด้วย path แบบ relative (เช่น `./src/style.css`) จึงดับเบิลคลิกเปิดตรง ๆ ก็ได้ แต่แนะนำ Live Server เพราะจะรีเฟรชหน้าเว็บให้อัตโนมัติทุกครั้งที่กด save
 
 ## เปรียบเทียบกับเฉลย
 
